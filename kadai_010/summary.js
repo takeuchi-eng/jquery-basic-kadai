@@ -10,11 +10,11 @@ $(function() {
     });
     // フェードアウト
     $('#fade-out').on('click', function(){
-        $('#target').hide();
+        $('#target').fadeOut();
     });
     // フェードイン
     $('#fade-in').on('click', function(){
-        $('#target').show();
+        $('#target').fadeIn();
     });
 });
 
